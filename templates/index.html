@@ -14,22 +14,24 @@
             padding: 0;
         }
 
-        body {
-            position : fixed;
-            top:0;
-            left:0:
-            width: 100vw;
-            height: 100vh;
+        html, body {
+            margin: 0;
+            padding: 0; 
+            width: 100%;
+            height: 100%;
             height: 100dvh;
-            overflow: hidden;
+            overflow : hidden;
+        }
+
+        body {
             background: url('{{ content.bg_image_url }}') no-repeat center center fixed;
-            background-size: contain;
+            background-size: cover;
             font-family: 'Courier Prime', monospace;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            z-index; 0;
+            
         }
 
         /* Lighter, softer overlay so the background shines through beautifully */
